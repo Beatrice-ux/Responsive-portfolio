@@ -1,4 +1,15 @@
-h1{
-    color: burlywood;
-    border: solid;
+:root{
+    --pri-font:'Julius Sans One',
+    sans-serif;
+    --sec-font:'Alegreya',
+    serif ;
+}
+
+body{
+    
+}
+
+.navbar{
+    font-family: var(--pri-font) ;
+   
 }
