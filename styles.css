@@ -1,15 +1,52 @@
 :root{
     --pri-font:'Julius Sans One',
     sans-serif;
-    --sec-font:'Alegreya',
-    serif ;
+    --sec-font:'Playfair Display SC',
+    serif;
 }
 
-body{
+
+
+h1{
+    font-family: var(--sec-font);
+}
+
+img{
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
     
+
 }
 
 .navbar{
     font-family: var(--pri-font) ;
-   
+}
+.self-intro{
+    margin: 150px 100px; 
+}
+
+.self-intro p{
+    font-family: var(--pri-font);
+    
+}
+
+.work{
+    margin:0 90px;
+    text-align: center;
+}
+
+.work p{
+    font-family: var(--pri-font);
+    font-size: 32px;
+}
+
+.bakery-app-intro{
+    text-align: left;
+    font-family: var(--pri-font);
+}
+
+@media(max-width:576px) {
+    
+    
 }
