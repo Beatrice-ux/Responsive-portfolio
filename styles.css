@@ -50,3 +50,21 @@ img{
     
     
 }
+
+.about-me{
+    margin:150px 160px;
+}
+
+.about-me p{
+    font-family: var(--pri-font);
+    font-size: 16px;
+    /* text-transform: capitalize; */
+}
+
+.about-me h3{
+    font-family: var(--pri-font);
+    font-size: 18px;
+    text-transform: lowercase ;
+    font-weight: bolder;
+
+}
