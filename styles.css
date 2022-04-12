@@ -15,9 +15,7 @@ img{
     border-radius: 50%;
     height: 50%;
     width: 50%;
-    
-
-}
+    }
 
 .navbar{
     font-family: var(--pri-font) ;
@@ -66,5 +64,21 @@ img{
     font-size: 18px;
     text-transform: lowercase ;
     font-weight: bolder;
+}
+
+.mywork{
+    margin:150px 90px;
+    text-align: center;
+}
+
+.weather-app-intro{
+    text-align: left;
+    font-family: var(--pri-font);
+}
+
+.weatherapp-img{
+    border-radius: 5%;
+    height: 100%;
+    width: 60%;
 
 }
