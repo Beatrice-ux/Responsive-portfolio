@@ -80,5 +80,13 @@ img{
     border-radius: 5%;
     height: 100%;
     width: 60%;
+}
 
+.mycontact{
+    margin:150px 90px;
+    text-align: left;
+}
+
+.mycontact p{
+    font-family: var(--pri-font);
 }
