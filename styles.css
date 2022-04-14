@@ -20,6 +20,62 @@ img{
 .navbar{
     font-family: var(--pri-font) ;
 }
+
+.contact-box{
+    margin:150px 200px ;
+    border-radius: 15px;
+    padding: 30px 80px;
+    background-color: #f8e8a6;
+}
+
+
+.contact-slogan{
+    text-align: left;
+    font-size: 20px;
+}
+
+.contact-slogan h4{
+    font-weight: bolder;
+}
+
+.btn-branding{
+    background-color: #F7BF50;
+    padding: 15px 10px;
+    border-radius: 4%;
+    color: white;
+    font-family: var(--pri-font);
+}
+
+.btn-branding:hover{
+    color: black;
+}
+
+.email-link{
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: var(--pri-font);
+    color: black;
+}
+
+.mail-links:hover{
+    color: black;
+}
+
+.media-links i{
+   background-color: #F7BF50;
+   color:white;
+   margin:0 20px;
+   padding:10px 14px;
+   border-radius: 50%;
+   font-size: 18px;
+}
+
+.media-links i:hover{
+    color: black;
+    transition: 100ms ease-in-out;
+}
+
 .self-intro{
     margin: 150px 100px; 
 }
